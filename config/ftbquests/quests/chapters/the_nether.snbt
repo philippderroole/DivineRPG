@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "70A9874CF60027AB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23BF06EA13507C77"]
+			icon: {
+				id: "divinerpg:bloodgem"
+			}
+			id: "7B08B3581C2C0B35"
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "368790A34B56888E"
+				item: { count: 2, id: "divinerpg:bloodgem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"23BF06EA13507C77"
+				"5CFDABFAFA68A6B6"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "divinerpg:torridite_ingot"
+			}
+			id: "712049210A19099D"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 6L
+					id: "3BFC4985178514E6"
+					item: { count: 6, id: "divinerpg:raw_torridite" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2FAFC045DA5A04D9"
+					item: { count: 6, id: "divinerpg:torridite_ingot" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"23BF06EA13507C77"
+				"5CFDABFAFA68A6B6"
+			]
+			icon: {
+				id: "divinerpg:purple_blaze"
+			}
+			id: "3C79D0CAEFF3DC6B"
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "divinerpg:scorcher"
+					id: "5D3423A8D9BEC3BE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 2L
+					id: "6108A538DDEC8280"
+					item: { count: 2, id: "divinerpg:purple_blaze" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B08B3581C2C0B35"]
+			id: "631FD04D4DE279DF"
+			shape: "rsquare"
+			tasks: [{
+				id: "59F9A932A59DBBA5"
+				item: { count: 1, id: "divinerpg:bloodgem_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"712049210A19099D"
+				"3C79D0CAEFF3DC6B"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "675E7C9717084E7D"
+			shape: "rsquare"
+			tasks: [{
+				id: "28027DB2E73B71F2"
+				item: { count: 1, id: "divinerpg:scorching_sword" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23BF06EA13507C77"]
+			icon: {
+				id: "divinerpg:molten_shards"
+			}
+			id: "319B57C793914609"
+			optional: true
+			tasks: [
+				{
+					entity: "divinerpg:hell_spider"
+					id: "050253BD732C0185"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:wildfire"
+					id: "5F7236071B128F0A"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "35007891F9846CD6"
+					item: { count: 1, id: "divinerpg:molten_shards" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "63B0C8CA1D33B3A2"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 12L
+					id: "19011F3F43164F4D"
+					item: { count: 10, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "4BF4724F6F16EA9C"
+					item: { count: 20, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "19B08E095BDD9D93"
+			shape: "rsquare"
+			tasks: [
+				{
+					biome: "minecraft:warped_forest"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:block/warped_nylium"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0B6E8AB588D90358"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					count: 20L
+					id: "0ACC4580200F9048"
+					item: { count: 20, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3BBD93790266224E"
+				"0FCAD9B4AE99955F"
+				"3192ABD725AC4086"
+				"19B08E095BDD9D93"
+				"63B0C8CA1D33B3A2"
+			]
+			icon: {
+				id: "divinerpg:call_of_the_watcher"
+			}
+			id: "62BE6B44F811ECF3"
+			min_required_dependencies: 2
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "39C2A741087A59E4"
+					item: { count: 1, id: "divinerpg:call_of_the_watcher" }
+					type: "item"
+				}
+				{
+					entity: "divinerpg:the_watcher"
+					id: "0CB1C62EE28AB643"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"319B57C793914609"
+				"63B0C8CA1D33B3A2"
+			]
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				id: "divinerpg:inferno_bow"
+			}
+			id: "5DCB2F355941F132"
+			optional: true
+			tasks: [
+				{
+					count: 3L
+					id: "5817CC73AAB72884"
+					item: { count: 1, id: "divinerpg:molten_stone" }
+					type: "item"
+				}
+				{
+					id: "2ED44C6C73AB2EE5"
+					item: { count: 1, id: "divinerpg:inferno_bow" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			id: "5CFDABFAFA68A6B6"
+			tasks: [{
+				id: "653B40387BCB2C38"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+	]
+}

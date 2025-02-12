@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: ""
+	id: "3EFFB8C9C878B8B6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5FCD57C00BFE86C6"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "6CD5461C51E78C29"
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4DFF380AB7BE881E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CD5461C51E78C29"]
+			icon: {
+				id: "divinerpg:watching_eye"
+			}
+			id: "3BBD93790266224E"
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "divinerpg:ender_watcher"
+					id: "0A20A56C5033DBBF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1FC89AB76FCFB2B4"
+					item: { count: 1, id: "divinerpg:watching_eye" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CD5461C51E78C29"]
+			id: "00F659910C7A9316"
+			shape: "rsquare"
+			tasks: [{
+				count: 24L
+				id: "307F713D74AE050E"
+				item: { count: 24, id: "divinerpg:ender_stone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+	]
+}

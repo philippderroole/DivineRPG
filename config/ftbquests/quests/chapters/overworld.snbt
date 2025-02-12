@@ -1,0 +1,644 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "03B67FAD5852D430"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"599FD3F08411F2F9"
+				"04D35765FE313A28"
+			]
+			dependency_requirement: "one_completed"
+			id: "49875A42563AAD7B"
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "2218B223B4BCA524"
+				item: { count: 1, id: "divinerpg:rupee_ingot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04D35765FE313A28"]
+			dependency_requirement: "all_started"
+			id: "599FD3F08411F2F9"
+			optional: true
+			progression_mode: "flexible"
+			tasks: [{
+				entity: "divinerpg:the_eye"
+				id: "220729D7E9E95C0D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"12430265C60FCEF2"
+				"04D35765FE313A28"
+			]
+			dependency_requirement: "one_completed"
+			id: "0FE44B8F4A59406D"
+			shape: "rsquare"
+			tasks: [{
+				count: 13L
+				id: "7CA22FBCBBDB1214"
+				item: { count: 1, id: "divinerpg:realmite_ingot" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04D35765FE313A28"]
+			dependency_requirement: "all_started"
+			id: "12430265C60FCEF2"
+			optional: true
+			progression_mode: "flexible"
+			tasks: [
+				{
+					entity: "divinerpg:cave_crawler"
+					id: "722AFA80DCA32E6B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "divinerpg:caveclops"
+					id: "1994829F5C8F4575"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"112D3216A60068DC"
+				"04D35765FE313A28"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B10D56E5A5FD560"
+			shape: "rsquare"
+			tasks: [{
+				count: 18L
+				id: "44E2322581F79FBA"
+				item: { count: 1, id: "divinerpg:arlemite_ingot" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04D35765FE313A28"]
+			dependency_requirement: "all_started"
+			id: "112D3216A60068DC"
+			optional: true
+			tasks: [{
+				entity: "divinerpg:the_grue"
+				id: "48FC65C9EAEF808E"
+				optional_task: true
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B10D56E5A5FD560"]
+			id: "715CC3B18384BDFB"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "27948E3ED42B563D"
+					item: { count: 1, id: "divinerpg:arlemite_helmet" }
+					type: "item"
+				}
+				{
+					id: "2C8B0A72B286F93C"
+					item: { count: 1, id: "divinerpg:arlemite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1919E8879EDC9712"
+					item: { count: 1, id: "divinerpg:arlemite_leggings" }
+					type: "item"
+				}
+				{
+					id: "67A024EEEB0E0CCD"
+					item: { count: 1, id: "divinerpg:arlemite_boots" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FE44B8F4A59406D"]
+			id: "31AEE21CFA6D0BA7"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0BDC9AD433E04F2B"
+					item: { count: 1, id: "divinerpg:realmite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3B402A1C5E5E64BA"
+					item: { count: 1, id: "divinerpg:realmite_axe" }
+					type: "item"
+				}
+				{
+					id: "4A1D1C28862EB968"
+					item: { count: 1, id: "divinerpg:realmite_shovel" }
+					type: "item"
+				}
+				{
+					id: "1AF859938E4E431B"
+					item: { count: 1, id: "divinerpg:palavence" }
+					type: "item"
+				}
+				{
+					id: "40FB367D45A4E227"
+					item: { count: 1, id: "divinerpg:realmite_shield" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04D35765FE313A28"]
+			id: "0FA3E638B924E771"
+			shape: "rsquare"
+			tasks: [{
+				id: "5FE1805CC4906390"
+				item: { count: 1, id: "divinerpg:slime_sword" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"715CC3B18384BDFB"
+				"31AEE21CFA6D0BA7"
+				"0FA3E638B924E771"
+				"1EF8466C64D4A131"
+				"50E3C562853E0C01"
+			]
+			id: "23BF06EA13507C77"
+			min_required_dependencies: 3
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "07B59466C5660078"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"715CC3B18384BDFB"
+				"31AEE21CFA6D0BA7"
+				"0FA3E638B924E771"
+			]
+			hide_dependency_lines: true
+			id: "50E3C562853E0C01"
+			optional: true
+			tasks: [{
+				id: "4A1E736ECDEC4745"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"715CC3B18384BDFB"
+				"31AEE21CFA6D0BA7"
+				"0FA3E638B924E771"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "1EF8466C64D4A131"
+			optional: true
+			tasks: [
+				{
+					id: "625D9B835C7E9E8D"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "20B0A09565ECE3CD"
+					item: { count: 12, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"599FD3F08411F2F9"
+				"112D3216A60068DC"
+				"12430265C60FCEF2"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "2EF0E5A015A74F66"
+			optional: true
+			tasks: [{
+				id: "61A24784226EAB46"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"63B0C8CA1D33B3A2"
+				"19B08E095BDD9D93"
+				"23BF06EA13507C77"
+			]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "290AD5D5AB2B778D"
+			tasks: [
+				{
+					count: 20L
+					id: "4FEF385BE09655C6"
+					item: { count: 20, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:end_portal_frame"
+					}
+					id: "48C6EF3D5AD78844"
+					structure: "minecraft:stronghold"
+					type: "structure"
+				}
+			]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["290AD5D5AB2B778D"]
+			id: "5FCD57C00BFE86C6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1B3D7FE4E7A2E9C7"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"7FD2807B50EB8192"
+				"7995432553619B9D"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "005E88D2A8E6CBEE"
+			tasks: [{
+				id: "2143DE259C6962D7"
+				item: { count: 1, id: "divinerpg:bowhead_anchor" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"23BF06EA13507C77"
+				"319B57C793914609"
+				"712049210A19099D"
+				"7B08B3581C2C0B35"
+				"3C79D0CAEFF3DC6B"
+				"04E65C06262387DD"
+				"1A96A817CEA77989"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "divinerpg:whale_fin"
+			}
+			id: "7FD2807B50EB8192"
+			min_required_dependencies: 4
+			tasks: [
+				{
+					biome: "minecraft:ocean"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/misc/underwater.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "28A10F8507E0C65C"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					entity: "divinerpg:whale"
+					id: "291AE4D62E481F88"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 5L
+					id: "60DCA10FD7A8D9BF"
+					item: { count: 5, id: "divinerpg:whale_fin" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"23BF06EA13507C77"
+				"319B57C793914609"
+				"712049210A19099D"
+				"7B08B3581C2C0B35"
+				"3C79D0CAEFF3DC6B"
+				"04E65C06262387DD"
+				"1A96A817CEA77989"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "divinerpg:aquatic_ingot"
+			}
+			id: "7995432553619B9D"
+			min_required_dependencies: 4
+			tasks: [
+				{
+					biome: "minecraft:beach"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:block/sand"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6B1641AFB300F250"
+					optional_task: true
+					type: "biome"
+				}
+				{
+					entity: "divinerpg:king_crab"
+					id: "5ADEC68DF1CE040F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 18L
+					id: "499C9F58F5363C13"
+					item: { count: 18, id: "divinerpg:aquatic_pellets" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "402C2DBF15684D88"
+					item: { count: 2, id: "divinerpg:pure_aquatic_pellets" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "483A53EBEB96FDBE"
+					item: { count: 2, id: "divinerpg:aquatic_ingot" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"715CC3B18384BDFB"
+				"31AEE21CFA6D0BA7"
+				"0FA3E638B924E771"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"easy_villagers:villager": { }
+				}
+				id: "easy_villagers:villager"
+			}
+			id: "53BC55AC20AF6EE0"
+			tasks: [
+				{
+					id: "43DF03B85E929C03"
+					item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
+					type: "item"
+				}
+				{
+					id: "4126AB9FEB0CE959"
+					item: { count: 1, id: "easy_villagers:trader" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["04E65C06262387DD"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "3192ABD725AC4086"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "49D72765F7414309"
+					item: { count: 1, id: "divinerpg:elite_realmite_helmet" }
+					type: "item"
+				}
+				{
+					id: "64370DDD712D7FE7"
+					item: { count: 1, id: "divinerpg:elite_realmite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "781BA489EE478408"
+					item: { count: 1, id: "divinerpg:elite_realmite_leggings" }
+					type: "item"
+				}
+				{
+					id: "1CEB0D10A6D3EE64"
+					item: { count: 1, id: "divinerpg:elite_realmite_boots" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1A96A817CEA77989"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "0FCAD9B4AE99955F"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "569D19E03F63C776"
+					item: { count: 1, id: "divinerpg:shadow_helmet" }
+					type: "item"
+				}
+				{
+					id: "1CE2DBF609635A5A"
+					item: { count: 1, id: "divinerpg:shadow_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1639D51780ADFC2E"
+					item: { count: 1, id: "divinerpg:shadow_leggings" }
+					type: "item"
+				}
+				{
+					id: "651ACE1429C4A09B"
+					item: { count: 1, id: "divinerpg:shadow_boots" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3DA56DAC7F1CE3E6"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "1A96A817CEA77989"
+			shape: "rsquare"
+			tasks: [{
+				count: 96L
+				id: "0CF8EC3E82BA9719"
+				item: { count: 1, id: "divinerpg:shadow_bar" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3DA56DAC7F1CE3E6"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "04E65C06262387DD"
+			shape: "rsquare"
+			tasks: [{
+				count: 216L
+				id: "0A40ED9F48F25372"
+				item: { count: 10, id: "divinerpg:realmite_ingot" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["23BF06EA13507C77"]
+			disable_toast: true
+			id: "3DA56DAC7F1CE3E6"
+			shape: "rsquare"
+			tasks: [{
+				id: "10FACA035BA04371"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1EF8466C64D4A131"
+				"53BC55AC20AF6EE0"
+			]
+			hide_dependency_lines: true
+			id: "61F546E27D6DFD07"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "19F52A120A367183"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "divinerpg:rive": 3 } } }, count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["715CC3B18384BDFB"]
+			hide_dependency_lines: true
+			id: "5F33687B4E64131C"
+			tasks: [{
+				id: "6233AF89BFB13A6F"
+				item: { count: 1, id: "divinerpg:arlemite_shickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49875A42563AAD7B"]
+			hide_dependency_lines: true
+			id: "125F900E90E8BBD3"
+			tasks: [
+				{
+					id: "24734A7C0FC0A142"
+					item: { count: 1, id: "divinerpg:bedrock_sword" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77DA2DF06F067F91"
+					item: { count: 1, id: "divinerpg:bedrock_maul" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5793333F81A41ECB"
+					item: { count: 1, id: "divinerpg:bedrock_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "6FFDF393BB75CEC6"
+					item: { count: 1, id: "divinerpg:bedrock_shovel" }
+					type: "item"
+				}
+				{
+					id: "41AF17FD442CEC06"
+					item: { count: 1, id: "divinerpg:bedrock_axe" }
+					type: "item"
+				}
+				{
+					id: "441F81A859C7B179"
+					item: { count: 1, id: "divinerpg:bedrock_hoe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+}

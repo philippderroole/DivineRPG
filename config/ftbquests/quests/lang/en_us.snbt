@@ -1,0 +1,124 @@
+{
+	chapter.03B67FAD5852D430.title: "Overworld"
+	chapter.0AC10018CC670776.title: "Getting Started"
+	chapter.3EFFB8C9C878B8B6.title: "The End"
+	chapter.70A9874CF60027AB.title: "The Nether"
+	chapter.768F0E3D61A6721A.title: "Getting Started"
+	quest.01DFD72F45E11A03.quest_desc: [
+		"Find a safe location to build your first shelter."
+		""
+		"Avoid Snow and Jungle biomes as the mobs there are very strong in the earlygame."
+	]
+	quest.01DFD72F45E11A03.title: "Setting up a Shelter"
+	quest.0FA3E638B924E771.quest_desc: [
+		"The Slime Sword is the first is your first upgrade from the vanilla diamond sword."
+		""
+		"Its crafted from three diamond swords. Make sure they are undamaged!"
+	]
+	quest.0FE44B8F4A59406D.quest_desc: [
+		"Realmite Ingots are a low-tier material from the Overword, stronger than Diamond (except for the sword)."
+		""
+		"Realmite commonly generates between levels Y=17 and Y=5."
+	]
+	quest.0FE44B8F4A59406D.title: "Realmite"
+	quest.112D3216A60068DC.quest_desc: [
+		"The Grue is a &lvery fast&r and aggressive mob that only appears at low elevations, regardless of light level."
+		""
+		"Upon death, it will always drop one Arlemite Ingot."
+	]
+	quest.112D3216A60068DC.title: "The Grue"
+	quest.12430265C60FCEF2.title: "Cave Crawler"
+	quest.125F900E90E8BBD3.title: "Unbreakable tools"
+	quest.1EF8466C64D4A131.quest_desc: ["Having enchanted tools and armor can be very benefitial coninuing forward. It might be worth to invest some time into a good enchanting setup."]
+	quest.23BF06EA13507C77.title: "LET'S GET BOWSPAMMED"
+	quest.2EF0E5A015A74F66.quest_desc: [
+		"To farm Realmite and the other ores efficiently, consider building a mob farm deep underground."
+		""
+		"Since certain mobs spawn regardless of light level, keep everything well-lit to prevent unwanted vanilla hostiles."
+		""
+		"Realmite:"
+		"Cave Crawler (Y=35, 2 blocks tall)"
+		"Caveclops (Y=20, 4 blocks tall)"
+		""
+		"Arlemite:"
+		"The Grue (Y=32, 2 blocks tall)"
+		""
+		"Rupee:"
+		"The Eye (Y=15, 3 blocks tall)"
+	]
+	quest.2EF0E5A015A74F66.title: "Farming Realmite \\& Other Ingots"
+	quest.31AEE21CFA6D0BA7.quest_desc: [
+		"Realmite tools are your first major upgrade in Divine RPG."
+		""
+		"They surpass Diamond tools in durability and efficiency, making them ideal for early-game progression. Gather enough Realmite Ingots to craft a full set before venturing into more dangerous realms."
+	]
+	quest.31AEE21CFA6D0BA7.title: "Realmite Tools"
+	quest.3DA56DAC7F1CE3E6.quest_desc: [
+		"Shadow Set makes you fast."
+		""
+		"Elite Realmite makes you more tanky and immune to falldamage."
+	]
+	quest.49875A42563AAD7B.quest_desc: [
+		"Rupee is a high-tier Overworld material, more common than Diamond but found in smaller veins between Y=-48 and Y=-52."
+		""
+		"⚠ WARNING: DO NOT USE RUPEE INGOTS JUST YET!"
+	]
+	quest.49875A42563AAD7B.title: "Rupee"
+	quest.4B10D56E5A5FD560.quest_desc: [
+		"Arlemite is considered to be a medium tier ore in the Overworld - it is better than Realmite, but is weaker than Rupee."
+		""
+		"Arlemite Ore appears most commonly between Y=-18 and Y=-22"
+	]
+	quest.4B10D56E5A5FD560.title: "Arlemite"
+	quest.50E3C562853E0C01.quest_desc: ["You will struggle a lot without a bow in the nether. You should get a decent one with a lot of arrows or infinity."]
+	quest.50E3C562853E0C01.quest_subtitle: "\"Trust me bro\""
+	quest.50E3C562853E0C01.title: "Shoot some back"
+	quest.53BC55AC20AF6EE0.quest_desc: [
+		"Pick up villagers by Sneak-Rightclick."
+		""
+		"Cycle trades with \"C\"."
+	]
+	quest.53BC55AC20AF6EE0.title: "Easy Villagers"
+	quest.5408F2573089FEAE.quest_desc: [
+		"⚠ WARNING: Avoid building your house near Snow or Jungle biomes!"
+		""
+		"The hostile mobs in these areas will slaughter you. Stay in safer areas while you gather materials and prepare for tougher enemies."
+	]
+	quest.5408F2573089FEAE.title: "⚠ Shelter Warning!"
+	quest.599FD3F08411F2F9.quest_desc: [
+		"The Eye is a dangerous underground mob that spawns at any light level."
+		""
+		"It is worth hunting because it always drops 1 Rupee Ingot upon death."
+	]
+	quest.599FD3F08411F2F9.title: "The Eye"
+	quest.5CFDABFAFA68A6B6.quest_desc: [
+		"This sword is worse than your current sword."
+		"It's also more expensive."
+	]
+	quest.5CFDABFAFA68A6B6.title: "Don't craft this!"
+	quest.5DCB2F355941F132.quest_desc: ["If you haven't gotten the Bowhead Anchor you might be needing a better bow right now. This one shoots fire arrows and has infinity built in!"]
+	quest.61F546E27D6DFD07.title: "A new enchantment"
+	quest.631FD04D4DE279DF.quest_desc: ["The Bloodgem Sword is weaker than the Slime Sword, but it never breaks."]
+	quest.675E7C9717084E7D.quest_desc: ["The Scorching Sword is a powerful but very brittle melee weapon."]
+	quest.712049210A19099D.quest_desc: [
+		"Torridite ore is very rare. It generates evenly 5 times per chunk in scattered veins of 4 ores from levels 8 to 120."
+		""
+		"It can't be mined with your Realmite Pickaxe, so be sure to bring a diamond one. Also throw some Fortune III on there to help with collecting."
+	]
+	quest.715CC3B18384BDFB.quest_desc: [""]
+	quest.715CC3B18384BDFB.title: "Arlemite Armor"
+	quest.7995432553619B9D.title: "Gather Aquatic Ingots"
+	quest.7FD2807B50EB8192.title: "Gather Whale Fins"
+	task.0EB226DDCC897FB7.title: "TR"
+	task.10FACA035BA04371.title: "Pick one!"
+	task.21ADA019F2CF0ACA.task_desc: [
+		"Find a safe location to build your first shelter."
+		""
+		"Avoid Snow and Jungle biomes for safety."
+	]
+	task.21ADA019F2CF0ACA.title: "Setting up a Shelter"
+	task.427B62D9FA655EB1.title: "Start"
+	task.61A24784226EAB46.task_desc: ["Mine Realmite, Rupee, and Arlemite ores in the Overworld to prepare for tougher challenges ahead."]
+	task.61A24784226EAB46.title: "Farming Overworld Ores"
+	task.653B40387BCB2C38.title: "Don't craft this"
+}
